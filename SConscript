@@ -30,9 +30,9 @@ else:
     libraries.append('kfather')
     libraries.append('iconvplus')
 
-libraries.append('boost_system' + os.environ['FREELAN_BOOST_SUFFIX'])
-libraries.append('boost_thread' + os.environ['FREELAN_BOOST_SUFFIX'])
-libraries.append('boost_date_time' + os.environ['FREELAN_BOOST_SUFFIX'])
+libraries.append('boost_system')
+libraries.append('boost_thread')
+libraries.append('boost_date_time')
 
 if sys.platform.startswith('win32'):
 
